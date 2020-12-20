@@ -1,15 +1,17 @@
 .container {
     position: relative;
-    width: 100%;
+    width: 90%; /* used to be 100 before player shrunk to fit on one screen */
     height: 0;
     padding-bottom: 56.25%;
+    margin: 0 auto; /* used to allow centering of smaller video player */
 }
 .video {
     position: absolute;
+    display:block; /* Only added to allow player to be shrunk to fit on one screen */
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 90%; /* used to be 100 before player shrunk to fit on one screen */
 }
 
 .image {
@@ -18,18 +20,16 @@
 }
 
 h1, h2, h3, h4, p {
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
     color: #222222;
+    font-weight: lighter;
 }
 
-p {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-h1, h2, h3, h4 {
-    font-family: Lucida Handwriting;
+h1 {
+    font-family: Lucida Handwriting !important;
 }
 
 p {
