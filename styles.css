@@ -32,6 +32,11 @@ h1, h2, h3, h4, p {
     font-family: Lucida Handwriting !important;
 }
 
+a {
+    text-decoration: underline;
+    text-decoration-color: #3c00ff;
+}
+
 p {
     padding-left: 15px;
     padding-right: 15px;
