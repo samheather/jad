@@ -1,6 +1,6 @@
 .container {
     position: relative;
-    width: 90%; /* used to be 100 before player shrunk to fit on one screen */
+    width: 70%; /* used to be 100 before player shrunk to fit on one screen */
     height: 0;
     padding-bottom: 56.25%;
     margin: 0 auto; /* used to allow centering of smaller video player */
@@ -11,7 +11,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 90%; /* used to be 100 before player shrunk to fit on one screen */
+    height: 70%; /* used to be 100 before player shrunk to fit on one screen */
 }
 
 .image {
