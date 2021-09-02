@@ -14,6 +14,14 @@
     height: 70%; /* used to be 100 before player shrunk to fit on one screen */
 }
 
+.container-wide {
+    width: 100% !important;
+}
+
+.video-wide {
+    height: 100% !important;
+}
+
 .image {
     max-height: 800px !important;
     max-width: 100%;
